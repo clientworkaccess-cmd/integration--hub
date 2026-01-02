@@ -1,0 +1,5 @@
+{
+  "name": "AppIntegrator Pro",
+  "description": "A sophisticated integration hub to connect your favorite applications like GitHub with automated workflows via n8n webhooks.",
+  "requestFramePermissions": []
+}
