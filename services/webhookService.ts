@@ -1,6 +1,6 @@
 
-import { WEBHOOK_URL, GITHUB_CLIENT_ID, GITHUB_CLIENT_SECRET } from '../constants';
-import { WebhookPayload } from '../types';
+import { WEBHOOK_URL, GITHUB_CLIENT_ID, GITHUB_CLIENT_SECRET } from '../constants.tsx';
+import { WebhookPayload } from '../types.ts';
 
 export const triggerWebhook = async (code: string, email: string): Promise<boolean> => {
   const payload: WebhookPayload = {

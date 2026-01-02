@@ -1,7 +1,7 @@
 
 import React from 'react';
-import { Integration } from '../types';
-import { ICONS } from '../constants';
+import { Integration } from '../types.ts';
+import { ICONS } from '../constants.tsx';
 
 interface IntegrationCardProps {
   integration: Integration;
